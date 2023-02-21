@@ -17,7 +17,7 @@
             Grid.Column="0">
             
         </StackLayout>
-
+        <Label/>
         <toolkit:MediaElement
             IsEnabled="False"
             IsVisible="False"
