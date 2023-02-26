@@ -8,34 +8,34 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = shale.lofi
-build_property.ProjectDir = /Users/deckerayers/Projects/shale.lofi/shale.lofi/shale.lofi/
+build_property.ProjectDir = C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\
 
-[/Users/deckerayers/Projects/shale.lofi/shale.lofi/shale.lofi/App.xaml]
+[C:/Users/ayers/source/repos/shale.lofi/shale.lofi/shale.lofi/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = shale.lofi.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[/Users/deckerayers/Projects/shale.lofi/shale.lofi/shale.lofi/AppShell.xaml]
+[C:/Users/ayers/source/repos/shale.lofi/shale.lofi/shale.lofi/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = shale.lofi.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[/Users/deckerayers/Projects/shale.lofi/shale.lofi/shale.lofi/MainPage.xaml]
+[C:/Users/ayers/source/repos/shale.lofi/shale.lofi/shale.lofi/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = shale.lofi.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[/Users/deckerayers/Projects/shale.lofi/shale.lofi/shale.lofi/Resources/Styles/Colors.xaml]
+[C:/Users/ayers/source/repos/shale.lofi/shale.lofi/shale.lofi/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = shale.lofi.Resources.Styles.Colors.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[/Users/deckerayers/Projects/shale.lofi/shale.lofi/shale.lofi/Resources/Styles/Styles.xaml]
+[C:/Users/ayers/source/repos/shale.lofi/shale.lofi/shale.lofi/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = shale.lofi.Resources.Styles.Styles.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
