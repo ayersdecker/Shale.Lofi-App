@@ -497,6 +497,9 @@ C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-ma
 C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
 C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
 C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
+C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\menu.png
+C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\pause.png
+C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\play.png
 C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
 C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
 C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\mauifont.stamp
@@ -522,3 +525,9 @@ C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-ma
 C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\shale.lofi.pdb
 C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\shale.lofi.genruntimeconfig.cache
 C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\shale.lofi.dll
+C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Google.Apis.dll
+C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Google.Apis.Auth.PlatformServices.dll
+C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Google.Apis.Auth.dll
+C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Google.Apis.Core.dll
+C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Google.Apis.YouTube.v3.dll
+C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Newtonsoft.Json.dll

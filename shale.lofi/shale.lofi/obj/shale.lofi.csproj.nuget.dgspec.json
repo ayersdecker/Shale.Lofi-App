@@ -69,7 +69,11 @@
             },
             "CommunityToolkit.Maui.MediaElement": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
+            },
+            "Google.Apis.YouTube.v3": {
+              "target": "Package",
+              "version": "[1.60.0.2945, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -99,6 +103,10 @@
               "target": "Package",
               "version": "[7.0.59, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
             },
             "Xamarin.Android.Glide": {
               "target": "Package",
@@ -195,7 +203,11 @@
             },
             "CommunityToolkit.Maui.MediaElement": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
+            },
+            "Google.Apis.YouTube.v3": {
+              "target": "Package",
+              "version": "[1.60.0.2945, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -225,6 +237,10 @@
               "target": "Package",
               "version": "[7.0.59, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
             }
           },
           "imports": [
@@ -266,7 +282,11 @@
             },
             "CommunityToolkit.Maui.MediaElement": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
+            },
+            "Google.Apis.YouTube.v3": {
+              "target": "Package",
+              "version": "[1.60.0.2945, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -296,6 +316,10 @@
               "target": "Package",
               "version": "[7.0.59, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
             }
           },
           "imports": [
@@ -338,7 +362,11 @@
             },
             "CommunityToolkit.Maui.MediaElement": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
+            },
+            "Google.Apis.YouTube.v3": {
+              "target": "Package",
+              "version": "[1.60.0.2945, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -384,6 +412,10 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
             }
           },
           "imports": [

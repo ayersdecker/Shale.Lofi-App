@@ -31,11 +31,11 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.dll": {
@@ -45,6 +45,74 @@
         "runtime": {
           "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".aar;.xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -243,21 +311,34 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer/2.18.8": {
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugins.Android.ExoPlayer/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Dash": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Hls": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Rtsp": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.SmoothStreaming": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.UI": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Dash": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Hls": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Rtsp": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.SmoothStreaming": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.UI": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.dll": {
@@ -270,7 +351,7 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Common/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Common/2.18.10": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.4.0",
@@ -287,14 +368,14 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Core/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Core/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.8",
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.10",
           "Xamarin.AndroidX.Core": "1.8.0.1"
         },
         "compile": {
@@ -308,10 +389,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Dash/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Dash/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Dash.dll": {
@@ -324,10 +405,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Database/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Database/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Database.dll": {
@@ -340,11 +421,11 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.DataSource.dll": {
@@ -357,10 +438,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Decoder.dll": {
@@ -373,11 +454,11 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Extractor.dll": {
@@ -390,10 +471,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Hls/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Hls/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Hls.dll": {
@@ -406,10 +487,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Rtsp.dll": {
@@ -422,10 +503,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.SmoothStreaming.dll": {
@@ -438,10 +519,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Transformer.dll": {
@@ -454,10 +535,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.UI/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.UI/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8",
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10",
           "Xamarin.AndroidX.Media": "1.6.0.1",
           "Xamarin.AndroidX.RecyclerView": "1.2.1.7"
         },
@@ -2306,11 +2387,11 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.dll": {
@@ -2320,6 +2401,74 @@
         "runtime": {
           "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".aar;.xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -2518,21 +2667,34 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer/2.18.8": {
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugins.Android.ExoPlayer/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Dash": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Hls": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Rtsp": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.SmoothStreaming": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.UI": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Dash": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Hls": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Rtsp": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.SmoothStreaming": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.UI": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.dll": {
@@ -2545,7 +2707,7 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Common/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Common/2.18.10": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.4.0",
@@ -2562,14 +2724,14 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Core/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Core/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.8",
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.10",
           "Xamarin.AndroidX.Core": "1.8.0.1"
         },
         "compile": {
@@ -2583,10 +2745,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Dash/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Dash/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Dash.dll": {
@@ -2599,10 +2761,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Database/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Database/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Database.dll": {
@@ -2615,11 +2777,11 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.DataSource.dll": {
@@ -2632,10 +2794,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Decoder.dll": {
@@ -2648,11 +2810,11 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Extractor.dll": {
@@ -2665,10 +2827,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Hls/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Hls/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Hls.dll": {
@@ -2681,10 +2843,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Rtsp.dll": {
@@ -2697,10 +2859,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.SmoothStreaming.dll": {
@@ -2713,10 +2875,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Transformer.dll": {
@@ -2729,10 +2891,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.UI/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.UI/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8",
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10",
           "Xamarin.AndroidX.Media": "1.6.0.1",
           "Xamarin.AndroidX.RecyclerView": "1.2.1.7"
         },
@@ -4581,11 +4743,11 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.dll": {
@@ -4595,6 +4757,74 @@
         "runtime": {
           "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".aar;.xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -4793,21 +5023,34 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer/2.18.8": {
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugins.Android.ExoPlayer/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Dash": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Hls": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Rtsp": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.SmoothStreaming": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.UI": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Dash": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Hls": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Rtsp": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.SmoothStreaming": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.UI": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.dll": {
@@ -4820,7 +5063,7 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Common/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Common/2.18.10": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.4.0",
@@ -4837,14 +5080,14 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Core/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Core/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.8",
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.10",
           "Xamarin.AndroidX.Core": "1.8.0.1"
         },
         "compile": {
@@ -4858,10 +5101,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Dash/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Dash/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Dash.dll": {
@@ -4874,10 +5117,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Database/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Database/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Database.dll": {
@@ -4890,11 +5133,11 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.DataSource.dll": {
@@ -4907,10 +5150,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Decoder.dll": {
@@ -4923,11 +5166,11 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Extractor.dll": {
@@ -4940,10 +5183,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Hls/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Hls/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Hls.dll": {
@@ -4956,10 +5199,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Rtsp.dll": {
@@ -4972,10 +5215,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.SmoothStreaming.dll": {
@@ -4988,10 +5231,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Transformer.dll": {
@@ -5004,10 +5247,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.UI/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.UI/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8",
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10",
           "Xamarin.AndroidX.Media": "1.6.0.1",
           "Xamarin.AndroidX.RecyclerView": "1.2.1.7"
         },
@@ -6856,11 +7099,11 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.dll": {
@@ -6870,6 +7113,74 @@
         "runtime": {
           "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".aar;.xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -7068,21 +7379,34 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer/2.18.8": {
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugins.Android.ExoPlayer/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Dash": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Hls": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Rtsp": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.SmoothStreaming": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.UI": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Dash": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Hls": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Rtsp": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.SmoothStreaming": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.UI": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.dll": {
@@ -7095,7 +7419,7 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Common/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Common/2.18.10": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.4.0",
@@ -7112,14 +7436,14 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Core/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Core/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.8",
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.10",
           "Xamarin.AndroidX.Core": "1.8.0.1"
         },
         "compile": {
@@ -7133,10 +7457,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Dash/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Dash/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Dash.dll": {
@@ -7149,10 +7473,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Database/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Database/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Database.dll": {
@@ -7165,11 +7489,11 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.DataSource.dll": {
@@ -7182,10 +7506,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Decoder.dll": {
@@ -7198,11 +7522,11 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Extractor.dll": {
@@ -7215,10 +7539,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Hls/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Hls/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Hls.dll": {
@@ -7231,10 +7555,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Rtsp.dll": {
@@ -7247,10 +7571,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.SmoothStreaming.dll": {
@@ -7263,10 +7587,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Transformer.dll": {
@@ -7279,10 +7603,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.UI/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.UI/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8",
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10",
           "Xamarin.AndroidX.Media": "1.6.0.1",
           "Xamarin.AndroidX.RecyclerView": "1.2.1.7"
         },
@@ -9131,11 +9455,11 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.dll": {
@@ -9145,6 +9469,74 @@
         "runtime": {
           "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".aar;.xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -9343,21 +9735,34 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer/2.18.8": {
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugins.Android.ExoPlayer/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Dash": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Hls": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Rtsp": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.SmoothStreaming": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.UI": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Dash": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Hls": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Rtsp": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.SmoothStreaming": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.UI": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.dll": {
@@ -9370,7 +9775,7 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Common/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Common/2.18.10": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.4.0",
@@ -9387,14 +9792,14 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Core/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Core/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.8",
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.10",
           "Xamarin.AndroidX.Core": "1.8.0.1"
         },
         "compile": {
@@ -9408,10 +9813,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Dash/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Dash/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Dash.dll": {
@@ -9424,10 +9829,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Database/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Database/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Database.dll": {
@@ -9440,11 +9845,11 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.DataSource.dll": {
@@ -9457,10 +9862,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Decoder.dll": {
@@ -9473,11 +9878,11 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Extractor.dll": {
@@ -9490,10 +9895,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Hls/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Hls/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Hls.dll": {
@@ -9506,10 +9911,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Rtsp.dll": {
@@ -9522,10 +9927,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.SmoothStreaming.dll": {
@@ -9538,10 +9943,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Transformer.dll": {
@@ -9554,10 +9959,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.UI/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.UI/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8",
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10",
           "Xamarin.AndroidX.Media": "1.6.0.1",
           "Xamarin.AndroidX.RecyclerView": "1.2.1.7"
         },
@@ -11406,11 +11811,11 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.dll": {
@@ -11420,6 +11825,74 @@
         "runtime": {
           "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".aar;.xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -11618,21 +12091,34 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer/2.18.8": {
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugins.Android.ExoPlayer/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Dash": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Hls": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Rtsp": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.SmoothStreaming": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.UI": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Dash": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Hls": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Rtsp": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.SmoothStreaming": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.UI": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.dll": {
@@ -11645,7 +12131,7 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Common/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Common/2.18.10": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.4.0",
@@ -11662,14 +12148,14 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Core/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Core/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.8",
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.10",
           "Xamarin.AndroidX.Core": "1.8.0.1"
         },
         "compile": {
@@ -11683,10 +12169,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Dash/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Dash/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Dash.dll": {
@@ -11699,10 +12185,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Database/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Database/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Database.dll": {
@@ -11715,11 +12201,11 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.DataSource.dll": {
@@ -11732,10 +12218,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Decoder.dll": {
@@ -11748,11 +12234,11 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Extractor.dll": {
@@ -11765,10 +12251,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Hls/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Hls/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Hls.dll": {
@@ -11781,10 +12267,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Rtsp.dll": {
@@ -11797,10 +12283,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.SmoothStreaming.dll": {
@@ -11813,10 +12299,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Transformer.dll": {
@@ -11829,10 +12315,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.UI/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.UI/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8",
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10",
           "Xamarin.AndroidX.Media": "1.6.0.1",
           "Xamarin.AndroidX.RecyclerView": "1.2.1.7"
         },
@@ -13681,11 +14167,11 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.dll": {
@@ -13695,6 +14181,74 @@
         "runtime": {
           "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".aar;.xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -13893,21 +14447,34 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer/2.18.8": {
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugins.Android.ExoPlayer/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Dash": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Hls": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Rtsp": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.SmoothStreaming": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.UI": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Dash": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Hls": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Rtsp": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.SmoothStreaming": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.UI": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.dll": {
@@ -13920,7 +14487,7 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Common/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Common/2.18.10": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.4.0",
@@ -13937,14 +14504,14 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Core/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Core/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.8",
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.10",
           "Xamarin.AndroidX.Core": "1.8.0.1"
         },
         "compile": {
@@ -13958,10 +14525,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Dash/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Dash/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Dash.dll": {
@@ -13974,10 +14541,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Database/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Database/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Database.dll": {
@@ -13990,11 +14557,11 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.DataSource.dll": {
@@ -14007,10 +14574,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Decoder.dll": {
@@ -14023,11 +14590,11 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Extractor.dll": {
@@ -14040,10 +14607,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Hls/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Hls/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Hls.dll": {
@@ -14056,10 +14623,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Rtsp.dll": {
@@ -14072,10 +14639,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.SmoothStreaming.dll": {
@@ -14088,10 +14655,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Transformer.dll": {
@@ -14104,10 +14671,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.UI/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.UI/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8",
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10",
           "Xamarin.AndroidX.Media": "1.6.0.1",
           "Xamarin.AndroidX.RecyclerView": "1.2.1.7"
         },
@@ -15956,11 +16523,11 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.dll": {
@@ -15970,6 +16537,74 @@
         "runtime": {
           "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".aar;.xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -16168,21 +16803,34 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer/2.18.8": {
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xam.Plugins.Android.ExoPlayer/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Dash": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Hls": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Rtsp": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.SmoothStreaming": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.UI": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Dash": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Hls": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Rtsp": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.SmoothStreaming": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Transformer": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.UI": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.dll": {
@@ -16195,7 +16843,7 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Common/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Common/2.18.10": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.4.0",
@@ -16212,14 +16860,14 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Core/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Core/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.8",
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.DataSource": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Extractor": "2.18.10",
           "Xamarin.AndroidX.Core": "1.8.0.1"
         },
         "compile": {
@@ -16233,10 +16881,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Dash/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Dash/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Dash.dll": {
@@ -16249,10 +16897,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Database/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Database/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Database.dll": {
@@ -16265,11 +16913,11 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Database": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.DataSource.dll": {
@@ -16282,10 +16930,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Decoder.dll": {
@@ -16298,11 +16946,11 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.8",
-          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Common": "2.18.10",
+          "Xam.Plugins.Android.ExoPlayer.Decoder": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Extractor.dll": {
@@ -16315,10 +16963,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Hls/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Hls/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Hls.dll": {
@@ -16331,10 +16979,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Rtsp.dll": {
@@ -16347,10 +16995,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.SmoothStreaming.dll": {
@@ -16363,10 +17011,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8"
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10"
         },
         "compile": {
           "lib/net7.0-android33.0/ExoPlayer.Transformer.dll": {
@@ -16379,10 +17027,10 @@
           }
         }
       },
-      "Xam.Plugins.Android.ExoPlayer.UI/2.18.8": {
+      "Xam.Plugins.Android.ExoPlayer.UI/2.18.10": {
         "type": "package",
         "dependencies": {
-          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.8",
+          "Xam.Plugins.Android.ExoPlayer.Core": "2.18.10",
           "Xamarin.AndroidX.Media": "1.6.0.1",
           "Xamarin.AndroidX.RecyclerView": "1.2.1.7"
         },
@@ -18231,7 +18879,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.MediaElement.dll": {
@@ -18241,6 +18889,74 @@
         "runtime": {
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -18423,6 +19139,19 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -18457,7 +19186,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.MediaElement.dll": {
@@ -18467,6 +19196,74 @@
         "runtime": {
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -18649,6 +19446,19 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -18683,7 +19493,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.MediaElement.dll": {
@@ -18693,6 +19503,74 @@
         "runtime": {
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -18875,6 +19753,19 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -18909,7 +19800,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.MediaElement.dll": {
@@ -18919,6 +19810,74 @@
         "runtime": {
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -19101,6 +20060,19 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -19135,7 +20107,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.MediaElement.dll": {
@@ -19145,6 +20117,74 @@
         "runtime": {
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -19327,6 +20367,19 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -19361,7 +20414,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.MediaElement.dll": {
@@ -19371,6 +20424,74 @@
         "runtime": {
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -19553,6 +20674,19 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -19587,7 +20721,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.MediaElement.dll": {
@@ -19597,6 +20731,74 @@
         "runtime": {
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -19779,6 +20981,19 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -19813,7 +21028,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.MediaElement.dll": {
@@ -19823,6 +21038,74 @@
         "runtime": {
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -20005,6 +21288,19 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -20039,7 +21335,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.MediaElement.dll": {
@@ -20049,6 +21345,74 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -20231,6 +21595,19 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -20265,7 +21642,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.MediaElement.dll": {
@@ -20275,6 +21652,74 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -20457,6 +21902,19 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -20491,7 +21949,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.MediaElement.dll": {
@@ -20501,6 +21959,74 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -20683,6 +22209,19 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -20717,7 +22256,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.MediaElement.dll": {
@@ -20727,6 +22266,74 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -20909,6 +22516,19 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -20943,7 +22563,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.MediaElement.dll": {
@@ -20953,6 +22573,74 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -21135,6 +22823,19 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -21169,7 +22870,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.MediaElement.dll": {
@@ -21179,6 +22880,74 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -21361,6 +23130,19 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -21395,7 +23177,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.MediaElement.dll": {
@@ -21405,6 +23187,74 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -21587,6 +23437,19 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -21621,7 +23484,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.MediaElement.dll": {
@@ -21631,6 +23494,74 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -21815,6 +23746,19 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041": {
@@ -21847,7 +23791,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.dll": {
@@ -21857,6 +23801,74 @@
         "runtime": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -22179,6 +24191,19 @@
             "rid": "win10-x86"
           }
         }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
@@ -22211,7 +24236,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.dll": {
@@ -22221,6 +24246,74 @@
         "runtime": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -22514,6 +24607,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -22547,7 +24653,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.dll": {
@@ -22557,6 +24663,74 @@
         "runtime": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -22850,6 +25024,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -22883,7 +25070,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.dll": {
@@ -22893,6 +25080,74 @@
         "runtime": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -23186,6 +25441,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -23219,7 +25487,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.dll": {
@@ -23229,6 +25497,74 @@
         "runtime": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -23522,6 +25858,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -23555,7 +25904,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.dll": {
@@ -23565,6 +25914,74 @@
         "runtime": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -23858,6 +26275,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -23891,7 +26321,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.dll": {
@@ -23901,6 +26331,74 @@
         "runtime": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -24195,6 +26693,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/win10-x64": {
@@ -24227,7 +26738,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.MediaElement/1.0.1": {
+      "CommunityToolkit.Maui.MediaElement/1.0.2": {
         "type": "package",
         "compile": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.dll": {
@@ -24237,6 +26748,74 @@
         "runtime": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.YouTube.v3/1.60.0.2945": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -24537,6 +27116,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
       }
     }
   },
@@ -24596,17 +27188,17 @@
         "lib/net7.0/CommunityToolkit.Maui.Core.xml"
       ]
     },
-    "CommunityToolkit.Maui.MediaElement/1.0.1": {
-      "sha512": "eEVWdGQG/LCnB3SgXr5IveMkltxoseSXsSgGH+3NDHqqLvdfv+ZeQxfln2kiCd7T/PK9RMioXSNL0wM8sD0I5g==",
+    "CommunityToolkit.Maui.MediaElement/1.0.2": {
+      "sha512": "kB2COCJfH+tWubCDcHgP8vH5LPneZEzjTAHPfilDn6ob8t2GWqJPjHuT2CtuWPBdQRDgZ2YhNTmeiAgGWmP5oA==",
       "type": "package",
-      "path": "communitytoolkit.maui.mediaelement/1.0.1",
+      "path": "communitytoolkit.maui.mediaelement/1.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "ReadMe.txt",
         "analyzers/dotnet/cs/CommunityToolkit.Maui.MediaElement.Analyzers.CodeFixes.dll",
         "analyzers/dotnet/cs/CommunityToolkit.Maui.MediaElement.Analyzers.dll",
-        "communitytoolkit.maui.mediaelement.1.0.1.nupkg.sha512",
+        "communitytoolkit.maui.mediaelement.1.0.2.nupkg.sha512",
         "communitytoolkit.maui.mediaelement.nuspec",
         "icon.png",
         "lib/net7.0-android33.0/CommunityToolkit.Maui.MediaElement.aar",
@@ -24622,6 +27214,102 @@
         "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.MediaElement.xml",
         "lib/net7.0/CommunityToolkit.Maui.MediaElement.dll",
         "lib/net7.0/CommunityToolkit.Maui.MediaElement.xml"
+      ]
+    },
+    "Google.Apis/1.60.0": {
+      "sha512": "T8ojAsKlsMkt5nZhTQuocqHYzm/knVm8o2/JMm4louEjaKzT4x0FihoCIxCYSTRGWkYC27LPWspyG4p76+bMzA==",
+      "type": "package",
+      "path": "google.apis/1.60.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.1.60.0.nupkg.sha512",
+        "google.apis.nuspec",
+        "lib/net45/Google.Apis.PlatformServices.dll",
+        "lib/net45/Google.Apis.dll",
+        "lib/net45/Google.Apis.pdb",
+        "lib/net45/Google.Apis.xml",
+        "lib/netstandard1.3/Google.Apis.dll",
+        "lib/netstandard1.3/Google.Apis.pdb",
+        "lib/netstandard1.3/Google.Apis.xml",
+        "lib/netstandard2.0/Google.Apis.dll",
+        "lib/netstandard2.0/Google.Apis.pdb",
+        "lib/netstandard2.0/Google.Apis.xml"
+      ]
+    },
+    "Google.Apis.Auth/1.60.0": {
+      "sha512": "AUuWniIf2muns/9hesiF7yCKeQN+PbdTU864Rb2wDzW4xmepO6tEnoqREPeow95qIAgkOlL/byKeU65d3ox5Ng==",
+      "type": "package",
+      "path": "google.apis.auth/1.60.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.auth.1.60.0.nupkg.sha512",
+        "google.apis.auth.nuspec",
+        "lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "lib/net45/Google.Apis.Auth.dll",
+        "lib/net45/Google.Apis.Auth.pdb",
+        "lib/net45/Google.Apis.Auth.xml",
+        "lib/net461/Google.Apis.Auth.PlatformServices.dll",
+        "lib/net461/Google.Apis.Auth.dll",
+        "lib/net461/Google.Apis.Auth.pdb",
+        "lib/net461/Google.Apis.Auth.xml",
+        "lib/netstandard1.3/Google.Apis.Auth.PlatformServices.dll",
+        "lib/netstandard1.3/Google.Apis.Auth.dll",
+        "lib/netstandard1.3/Google.Apis.Auth.pdb",
+        "lib/netstandard1.3/Google.Apis.Auth.xml",
+        "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll",
+        "lib/netstandard2.0/Google.Apis.Auth.dll",
+        "lib/netstandard2.0/Google.Apis.Auth.pdb",
+        "lib/netstandard2.0/Google.Apis.Auth.xml"
+      ]
+    },
+    "Google.Apis.Core/1.60.0": {
+      "sha512": "NOkjqMQblYEZXt2OEgshWayveYW11Pi+Uz0I30Kzl9BvL4TZLJzMqtiu1EdV8XkyyjGuAUgANdi4BOqRDlbVEw==",
+      "type": "package",
+      "path": "google.apis.core/1.60.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.core.1.60.0.nupkg.sha512",
+        "google.apis.core.nuspec",
+        "lib/net45/Google.Apis.Core.dll",
+        "lib/net45/Google.Apis.Core.pdb",
+        "lib/net45/Google.Apis.Core.xml",
+        "lib/netstandard1.3/Google.Apis.Core.dll",
+        "lib/netstandard1.3/Google.Apis.Core.pdb",
+        "lib/netstandard1.3/Google.Apis.Core.xml",
+        "lib/netstandard2.0/Google.Apis.Core.dll",
+        "lib/netstandard2.0/Google.Apis.Core.pdb",
+        "lib/netstandard2.0/Google.Apis.Core.xml"
+      ]
+    },
+    "Google.Apis.YouTube.v3/1.60.0.2945": {
+      "sha512": "X28UjAhm4KUNaPEPRk8nVIEJnvqPfa78yhqLhpRa2Bq3rEshBr+/mBGFaQG/UO3ksuELXvJsDigdrQ01uf3ULg==",
+      "type": "package",
+      "path": "google.apis.youtube.v3/1.60.0.2945",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.youtube.v3.1.60.0.2945.nupkg.sha512",
+        "google.apis.youtube.v3.nuspec",
+        "lib/net45/Google.Apis.YouTube.v3.dll",
+        "lib/net45/Google.Apis.YouTube.v3.pdb",
+        "lib/net45/Google.Apis.YouTube.v3.xml",
+        "lib/netstandard1.3/Google.Apis.YouTube.v3.dll",
+        "lib/netstandard1.3/Google.Apis.YouTube.v3.pdb",
+        "lib/netstandard1.3/Google.Apis.YouTube.v3.xml",
+        "lib/netstandard2.0/Google.Apis.YouTube.v3.dll",
+        "lib/netstandard2.0/Google.Apis.YouTube.v3.pdb",
+        "lib/netstandard2.0/Google.Apis.YouTube.v3.xml"
       ]
     },
     "GoogleGson/2.9.1.1": {
@@ -25857,10 +28545,40 @@
         "tools/x86/GenXbf.dll"
       ]
     },
-    "Xam.Plugins.Android.ExoPlayer/2.18.8": {
-      "sha512": "ap0/gaucOSXTxa3PPWtBdtAM3GL/B54wsD+2hcgYEolUon1cbOLrNes0HMol6Q40Eulr1fsLDbeybt7N3Qy3Kg==",
+    "Newtonsoft.Json/13.0.2": {
+      "sha512": "R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
       "type": "package",
-      "path": "xam.plugins.android.exoplayer/2.18.8",
+      "path": "newtonsoft.json/13.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Xam.Plugins.Android.ExoPlayer/2.18.10": {
+      "sha512": "MXAnctaxf5MfFd/WsT1MXxcvBLZOXt6/VIN2sKoJrvjQRTk7ORkeIoMhLOj7DfPBY3LF8kDxWIOY9LvXBx+HBw==",
+      "type": "package",
+      "path": "xam.plugins.android.exoplayer/2.18.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -25876,14 +28594,16 @@
         "lib/net7.0-android33.0/ExoPlayer.dll",
         "lib/net7.0-android33.0/ExoPlayer.pdb",
         "lib/net7.0-android33.0/ExoPlayer.xml",
-        "xam.plugins.android.exoplayer.2.18.8.nupkg.sha512",
+        "readme.md",
+        "readme.txt",
+        "xam.plugins.android.exoplayer.2.18.10.nupkg.sha512",
         "xam.plugins.android.exoplayer.nuspec"
       ]
     },
-    "Xam.Plugins.Android.ExoPlayer.Common/2.18.8": {
-      "sha512": "GD1vPtf/J44KN283EbXEEiM852JjdC4eBeJW67aW1SjTcDtseapuV39v97b41VOQKlHFeTredaN4y2QPBGX8Ew==",
+    "Xam.Plugins.Android.ExoPlayer.Common/2.18.10": {
+      "sha512": "3ILR/af8z9andrBOf7voRWPK8jKfpwOxcndEY7YDPWelIg886VYudIthdvho3yfKq3hxsUqLERXzKV47lWTteg==",
       "type": "package",
-      "path": "xam.plugins.android.exoplayer.common/2.18.8",
+      "path": "xam.plugins.android.exoplayer.common/2.18.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -25901,14 +28621,16 @@
         "lib/net7.0-android33.0/ExoPlayer.Common.pdb",
         "lib/net7.0-android33.0/ExoPlayer.Common.xml",
         "lib/net7.0-android33.0/exoplayer-common-2.18.2.aar",
-        "xam.plugins.android.exoplayer.common.2.18.8.nupkg.sha512",
+        "readme.md",
+        "readme.txt",
+        "xam.plugins.android.exoplayer.common.2.18.10.nupkg.sha512",
         "xam.plugins.android.exoplayer.common.nuspec"
       ]
     },
-    "Xam.Plugins.Android.ExoPlayer.Core/2.18.8": {
-      "sha512": "hcG5zoy0COUemZ9991gowmd1EoRR+JUXRGKxhPtkg/RYvuZPZUd5DE0vAJBn6dZukoHUx4jljRSXJW0ZaDsDAw==",
+    "Xam.Plugins.Android.ExoPlayer.Core/2.18.10": {
+      "sha512": "+qs0KEbbbu35eQffnIYQSvL3E2bQ4kcmRNAKSIwheJ+ROJ7WEDMaXw5HEPnJ4XMQB1bDlZbC8r16A+vyFRQB1Q==",
       "type": "package",
-      "path": "xam.plugins.android.exoplayer.core/2.18.8",
+      "path": "xam.plugins.android.exoplayer.core/2.18.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -25927,14 +28649,16 @@
         "lib/net7.0-android33.0/ExoPlayer.Core.pdb",
         "lib/net7.0-android33.0/ExoPlayer.Core.xml",
         "lib/net7.0-android33.0/exoplayer-core-2.18.2.aar",
-        "xam.plugins.android.exoplayer.core.2.18.8.nupkg.sha512",
+        "readme.md",
+        "readme.txt",
+        "xam.plugins.android.exoplayer.core.2.18.10.nupkg.sha512",
         "xam.plugins.android.exoplayer.core.nuspec"
       ]
     },
-    "Xam.Plugins.Android.ExoPlayer.Dash/2.18.8": {
-      "sha512": "/NcHUxAeB48oziZd0OYf4ujs71XtRc29IQEJzBx6aenuRz+4hZeFZmFyZLid3A4uCESWfS8Q9ellQS3v6ahb4Q==",
+    "Xam.Plugins.Android.ExoPlayer.Dash/2.18.10": {
+      "sha512": "RsjRha9HeFL8EyO3twFYRNsEgdfnipbd+pYYNNQqgl1QGpp1rNneQ/i+KFKjvrxZfC+9/+LqL9E/PaRc5db+gQ==",
       "type": "package",
-      "path": "xam.plugins.android.exoplayer.dash/2.18.8",
+      "path": "xam.plugins.android.exoplayer.dash/2.18.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -25953,14 +28677,16 @@
         "lib/net7.0-android33.0/ExoPlayer.Dash.pdb",
         "lib/net7.0-android33.0/ExoPlayer.Dash.xml",
         "lib/net7.0-android33.0/exoplayer-dash-2.18.2.aar",
-        "xam.plugins.android.exoplayer.dash.2.18.8.nupkg.sha512",
+        "readme.md",
+        "readme.txt",
+        "xam.plugins.android.exoplayer.dash.2.18.10.nupkg.sha512",
         "xam.plugins.android.exoplayer.dash.nuspec"
       ]
     },
-    "Xam.Plugins.Android.ExoPlayer.Database/2.18.8": {
-      "sha512": "QrTS2CobSvApIFJvCX1JTMLOmhhCuziZDDxjC68xqyex2TcAScuOJAgfNQWIq4n01/9C2AI53tqZPtiWLqmHHg==",
+    "Xam.Plugins.Android.ExoPlayer.Database/2.18.10": {
+      "sha512": "aoiUJJ0j/mBIHa48aisbFxJfnQqEFRMdg/Q/nfq5Jr0WEk3OE951YUwnQJ9qVMoz6oWFVfUQBhM5ohxehI2jSA==",
       "type": "package",
-      "path": "xam.plugins.android.exoplayer.database/2.18.8",
+      "path": "xam.plugins.android.exoplayer.database/2.18.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -25979,14 +28705,16 @@
         "lib/net7.0-android33.0/ExoPlayer.Database.pdb",
         "lib/net7.0-android33.0/ExoPlayer.Database.xml",
         "lib/net7.0-android33.0/exoplayer-database-2.18.2.aar",
-        "xam.plugins.android.exoplayer.database.2.18.8.nupkg.sha512",
+        "readme.md",
+        "readme.txt",
+        "xam.plugins.android.exoplayer.database.2.18.10.nupkg.sha512",
         "xam.plugins.android.exoplayer.database.nuspec"
       ]
     },
-    "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.8": {
-      "sha512": "FgPWB56qHcmO88ZzXOZdE4faakPdxhO5JSUh6Ycmq9jOfjwjspxWws8HkwSXnVAY0Is11pjRrvDGcmGUy6pLog==",
+    "Xam.Plugins.Android.ExoPlayer.DataSource/2.18.10": {
+      "sha512": "RoblH0VqTxRROBMOkGXzdFXUE+9ONHPntPjm55fY9VZa1VP6MIRwwqXAX8vLyreg5Fm8SfsSiLevtLqQamSEzg==",
       "type": "package",
-      "path": "xam.plugins.android.exoplayer.datasource/2.18.8",
+      "path": "xam.plugins.android.exoplayer.datasource/2.18.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -26005,14 +28733,16 @@
         "lib/net7.0-android33.0/ExoPlayer.DataSource.pdb",
         "lib/net7.0-android33.0/ExoPlayer.DataSource.xml",
         "lib/net7.0-android33.0/exoplayer-datasource-2.18.2.aar",
-        "xam.plugins.android.exoplayer.datasource.2.18.8.nupkg.sha512",
+        "readme.md",
+        "readme.txt",
+        "xam.plugins.android.exoplayer.datasource.2.18.10.nupkg.sha512",
         "xam.plugins.android.exoplayer.datasource.nuspec"
       ]
     },
-    "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.8": {
-      "sha512": "ymqI5oK3beJiljxhgerKQFJJtHAB658PTBXyiYks2TzILZbxmV6wpbHmWb9RXkxXCYp7VAzZsJrVXYxThf5bwQ==",
+    "Xam.Plugins.Android.ExoPlayer.Decoder/2.18.10": {
+      "sha512": "Kom7UiE+fz5+1f+pmqQuovSDfZS7CSnoo/X2uuqEEdYoQii2UFiUFsvcdr/GK8dOWT17uZp/9RcIMVVxrA2vHQ==",
       "type": "package",
-      "path": "xam.plugins.android.exoplayer.decoder/2.18.8",
+      "path": "xam.plugins.android.exoplayer.decoder/2.18.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -26031,14 +28761,16 @@
         "lib/net7.0-android33.0/ExoPlayer.Decoder.pdb",
         "lib/net7.0-android33.0/ExoPlayer.Decoder.xml",
         "lib/net7.0-android33.0/exoplayer-decoder-2.18.2.aar",
-        "xam.plugins.android.exoplayer.decoder.2.18.8.nupkg.sha512",
+        "readme.md",
+        "readme.txt",
+        "xam.plugins.android.exoplayer.decoder.2.18.10.nupkg.sha512",
         "xam.plugins.android.exoplayer.decoder.nuspec"
       ]
     },
-    "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.8": {
-      "sha512": "F96k+d2osif7m9qEtElmbAuLG4iVwNJRrbfHZam3hljG2kp6vgp8mm+eOgrxKEa8a+QT9bgMhzEVghp8eTXclw==",
+    "Xam.Plugins.Android.ExoPlayer.Extractor/2.18.10": {
+      "sha512": "qVwrVNcARO2xkIzFIDajGIOl3ZV+bFgQGjYbRCkZfs3mHYEUlwu1CmVQ4MBOaXjRABlTEF6TBpJwvycJZzVG+Q==",
       "type": "package",
-      "path": "xam.plugins.android.exoplayer.extractor/2.18.8",
+      "path": "xam.plugins.android.exoplayer.extractor/2.18.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -26057,14 +28789,16 @@
         "lib/net7.0-android33.0/ExoPlayer.Extractor.pdb",
         "lib/net7.0-android33.0/ExoPlayer.Extractor.xml",
         "lib/net7.0-android33.0/exoplayer-extractor-2.18.2.aar",
-        "xam.plugins.android.exoplayer.extractor.2.18.8.nupkg.sha512",
+        "readme.md",
+        "readme.txt",
+        "xam.plugins.android.exoplayer.extractor.2.18.10.nupkg.sha512",
         "xam.plugins.android.exoplayer.extractor.nuspec"
       ]
     },
-    "Xam.Plugins.Android.ExoPlayer.Hls/2.18.8": {
-      "sha512": "0Zh0iXLxu3dPdEOXj3ODIhEwY5j92hvKtyCrM7vn6v4VM/I6x6bS90JHW9srhO9gJPQP4iwJV8meSFs0kXr+PQ==",
+    "Xam.Plugins.Android.ExoPlayer.Hls/2.18.10": {
+      "sha512": "gEAlRSh80w4siSNdC5AufrqCjcLqpnsx8Pic/cS8NrOdAPPbhbn0ojRgBWOocwYaQrOs1jlPTEuidAWKWwFEcg==",
       "type": "package",
-      "path": "xam.plugins.android.exoplayer.hls/2.18.8",
+      "path": "xam.plugins.android.exoplayer.hls/2.18.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -26083,14 +28817,16 @@
         "lib/net7.0-android33.0/ExoPlayer.Hls.pdb",
         "lib/net7.0-android33.0/ExoPlayer.Hls.xml",
         "lib/net7.0-android33.0/exoplayer-hls-2.18.2.aar",
-        "xam.plugins.android.exoplayer.hls.2.18.8.nupkg.sha512",
+        "readme.md",
+        "readme.txt",
+        "xam.plugins.android.exoplayer.hls.2.18.10.nupkg.sha512",
         "xam.plugins.android.exoplayer.hls.nuspec"
       ]
     },
-    "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.8": {
-      "sha512": "xGchmQ7jf6tufNXxX2OcYBT50cKUJCxQiWpN2g6wLLqpoU5vZ5bFiOppXwrp2KnVEAqmCBzymdoIBzfsf7YUjw==",
+    "Xam.Plugins.Android.ExoPlayer.Rtsp/2.18.10": {
+      "sha512": "O4bHrc3UndNfBGqfmoG2hl3nn17hRrC+WBUWog/BLKXE3x3nE2xa7H2SWUpCRcsb+aEOYi2BuZbE1yUqQHPByQ==",
       "type": "package",
-      "path": "xam.plugins.android.exoplayer.rtsp/2.18.8",
+      "path": "xam.plugins.android.exoplayer.rtsp/2.18.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -26109,14 +28845,16 @@
         "lib/net7.0-android33.0/ExoPlayer.Rtsp.pdb",
         "lib/net7.0-android33.0/ExoPlayer.Rtsp.xml",
         "lib/net7.0-android33.0/exoplayer-rtsp-2.18.2.aar",
-        "xam.plugins.android.exoplayer.rtsp.2.18.8.nupkg.sha512",
+        "readme.md",
+        "readme.txt",
+        "xam.plugins.android.exoplayer.rtsp.2.18.10.nupkg.sha512",
         "xam.plugins.android.exoplayer.rtsp.nuspec"
       ]
     },
-    "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.8": {
-      "sha512": "WpAljXcitkE7lpyn13xZdnMKT5fKKDnBgk0bxW4ajNIWDpP69l0s5OpGdojhQlbavrqwGH/ahKB79M4YxZHdxQ==",
+    "Xam.Plugins.Android.ExoPlayer.SmoothStreaming/2.18.10": {
+      "sha512": "pA0JodYPAgz0qXzDHSztBpCguEcAPdzQqlLaHBm2/Ch6VPQvHm4CNqrTGdMgubbnnF+8xGUMCvB6mTkdnXjwcA==",
       "type": "package",
-      "path": "xam.plugins.android.exoplayer.smoothstreaming/2.18.8",
+      "path": "xam.plugins.android.exoplayer.smoothstreaming/2.18.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -26135,14 +28873,16 @@
         "lib/net7.0-android33.0/ExoPlayer.SmoothStreaming.pdb",
         "lib/net7.0-android33.0/ExoPlayer.SmoothStreaming.xml",
         "lib/net7.0-android33.0/exoplayer-smoothstreaming-2.18.2.aar",
-        "xam.plugins.android.exoplayer.smoothstreaming.2.18.8.nupkg.sha512",
+        "readme.md",
+        "readme.txt",
+        "xam.plugins.android.exoplayer.smoothstreaming.2.18.10.nupkg.sha512",
         "xam.plugins.android.exoplayer.smoothstreaming.nuspec"
       ]
     },
-    "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.8": {
-      "sha512": "t0Q1JqLVTbqtK354Z0en5jBLQOFhLBpNoF6sOW4tt2npbxJantbMo+Yvq1wg8drOQ7gMECThuJQDlwI8qYYr1Q==",
+    "Xam.Plugins.Android.ExoPlayer.Transformer/2.18.10": {
+      "sha512": "vDmqJ4M0QkehPMEvf6P2Rnxi7wbwxKGgWeFu7rRIu/bFdOB5ruw6a1wDW8ezppiATug9EL/hhLcW4NvtObVi1Q==",
       "type": "package",
-      "path": "xam.plugins.android.exoplayer.transformer/2.18.8",
+      "path": "xam.plugins.android.exoplayer.transformer/2.18.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -26161,14 +28901,16 @@
         "lib/net7.0-android33.0/ExoPlayer.Transformer.pdb",
         "lib/net7.0-android33.0/ExoPlayer.Transformer.xml",
         "lib/net7.0-android33.0/exoplayer-transformer-2.18.2.aar",
-        "xam.plugins.android.exoplayer.transformer.2.18.8.nupkg.sha512",
+        "readme.md",
+        "readme.txt",
+        "xam.plugins.android.exoplayer.transformer.2.18.10.nupkg.sha512",
         "xam.plugins.android.exoplayer.transformer.nuspec"
       ]
     },
-    "Xam.Plugins.Android.ExoPlayer.UI/2.18.8": {
-      "sha512": "MRacrCopoAxkaLFOLtSFkOX4zvOpfajNhowC8TLWCiZTal4ihuOsGZGcEVU70nSRU3sblMYZN787pEbo95z+6A==",
+    "Xam.Plugins.Android.ExoPlayer.UI/2.18.10": {
+      "sha512": "LAJU0fO7/U9TWHhkRvHGoKQU7n5yNjt2xB+5pXypGrIC23TMqPGdJv5OXYWZ0W9j05HDCMzcKEGC67g0QvHtpA==",
       "type": "package",
-      "path": "xam.plugins.android.exoplayer.ui/2.18.8",
+      "path": "xam.plugins.android.exoplayer.ui/2.18.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -26187,7 +28929,9 @@
         "lib/net7.0-android33.0/ExoPlayer.UI.pdb",
         "lib/net7.0-android33.0/ExoPlayer.UI.xml",
         "lib/net7.0-android33.0/exoplayer-ui-2.18.2.aar",
-        "xam.plugins.android.exoplayer.ui.2.18.8.nupkg.sha512",
+        "readme.md",
+        "readme.txt",
+        "xam.plugins.android.exoplayer.ui.2.18.10.nupkg.sha512",
         "xam.plugins.android.exoplayer.ui.nuspec"
       ]
     },
@@ -28302,13 +31046,15 @@
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
       "CommunityToolkit.Maui >= 4.0.0",
-      "CommunityToolkit.Maui.MediaElement >= 1.0.1",
+      "CommunityToolkit.Maui.MediaElement >= 1.0.2",
+      "Google.Apis.YouTube.v3 >= 1.60.0.2945",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.59",
+      "Newtonsoft.Json >= 13.0.2",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -28323,27 +31069,32 @@
     ],
     "net7.0-ios16.1": [
       "CommunityToolkit.Maui >= 4.0.0",
-      "CommunityToolkit.Maui.MediaElement >= 1.0.1",
+      "CommunityToolkit.Maui.MediaElement >= 1.0.2",
+      "Google.Apis.YouTube.v3 >= 1.60.0.2945",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.59"
+      "Microsoft.Maui.Graphics >= 7.0.59",
+      "Newtonsoft.Json >= 13.0.2"
     ],
     "net7.0-maccatalyst16.1": [
       "CommunityToolkit.Maui >= 4.0.0",
-      "CommunityToolkit.Maui.MediaElement >= 1.0.1",
+      "CommunityToolkit.Maui.MediaElement >= 1.0.2",
+      "Google.Apis.YouTube.v3 >= 1.60.0.2945",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.59"
+      "Microsoft.Maui.Graphics >= 7.0.59",
+      "Newtonsoft.Json >= 13.0.2"
     ],
     "net7.0-windows10.0.19041": [
       "CommunityToolkit.Maui >= 4.0.0",
-      "CommunityToolkit.Maui.MediaElement >= 1.0.1",
+      "CommunityToolkit.Maui.MediaElement >= 1.0.2",
+      "Google.Apis.YouTube.v3 >= 1.60.0.2945",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -28352,7 +31103,8 @@
       "Microsoft.Maui.Graphics >= 7.0.59",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.59",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22621.755",
-      "Microsoft.WindowsAppSDK >= 1.2.221209.1"
+      "Microsoft.WindowsAppSDK >= 1.2.221209.1",
+      "Newtonsoft.Json >= 13.0.2"
     ]
   },
   "packageFolders": {
@@ -28425,7 +31177,11 @@
           },
           "CommunityToolkit.Maui.MediaElement": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[1.0.2, )"
+          },
+          "Google.Apis.YouTube.v3": {
+            "target": "Package",
+            "version": "[1.60.0.2945, )"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
@@ -28455,6 +31211,10 @@
             "target": "Package",
             "version": "[7.0.59, )",
             "autoReferenced": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.2, )"
           },
           "Xamarin.Android.Glide": {
             "target": "Package",
@@ -28551,7 +31311,11 @@
           },
           "CommunityToolkit.Maui.MediaElement": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[1.0.2, )"
+          },
+          "Google.Apis.YouTube.v3": {
+            "target": "Package",
+            "version": "[1.60.0.2945, )"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
@@ -28581,6 +31345,10 @@
             "target": "Package",
             "version": "[7.0.59, )",
             "autoReferenced": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.2, )"
           }
         },
         "imports": [
@@ -28622,7 +31390,11 @@
           },
           "CommunityToolkit.Maui.MediaElement": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[1.0.2, )"
+          },
+          "Google.Apis.YouTube.v3": {
+            "target": "Package",
+            "version": "[1.60.0.2945, )"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
@@ -28652,6 +31424,10 @@
             "target": "Package",
             "version": "[7.0.59, )",
             "autoReferenced": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.2, )"
           }
         },
         "imports": [
@@ -28694,7 +31470,11 @@
           },
           "CommunityToolkit.Maui.MediaElement": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[1.0.2, )"
+          },
+          "Google.Apis.YouTube.v3": {
+            "target": "Package",
+            "version": "[1.60.0.2945, )"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
@@ -28740,6 +31520,10 @@
             "target": "Package",
             "version": "[1.2.221209.1, )",
             "autoReferenced": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.2, )"
           }
         },
         "imports": [

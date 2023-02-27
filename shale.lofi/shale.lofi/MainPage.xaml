@@ -26,17 +26,6 @@
             <ColumnDefinition Width="10"/>
         </Grid.ColumnDefinitions>
 
-        <Label x:Name="Time"
-               Text="10:09"
-               FontSize="125"
-               FontAttributes="Bold"
-               Opacity=".1"
-               Grid.Row="2"
-               Grid.Column="1"
-               Grid.ColumnSpan="3"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"/>
-        
         <ImageButton x:Name="MenuButton"
                Source="menu.png" 
                Grid.Row="1"
@@ -45,7 +34,7 @@
                VerticalOptions="Center"
                HorizontalOptions="Center"
                Opacity=".5"/>
-        
+
         <Frame x:Name="WeatherFrame"
             Grid.Row="1"
             Grid.Column="1"
@@ -57,7 +46,13 @@
                 HorizontalOptions="Center"
                 VerticalOptions="Center"/>
         </Frame>
-        
+
+        <toolkit:MediaElement x:Name="MediaPlayer"
+                              Grid.Column="1"
+                              Grid.Row="2" 
+                              ShouldAutoPlay="False"
+                              ShouldShowPlaybackControls="True"/>
+
         <Frame x:Name="MediaFrame"
             Grid.Row="3"
             Grid.Column="1"

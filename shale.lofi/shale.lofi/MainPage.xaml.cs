@@ -9,7 +9,9 @@ public partial class MainPage : ContentPage
 	{
 		Shell.SetNavBarIsVisible(this, false);
         InitializeComponent();
+		YouTubeCall.SetSource(ref MediaPlayer);
 	}
+
 
 }
 

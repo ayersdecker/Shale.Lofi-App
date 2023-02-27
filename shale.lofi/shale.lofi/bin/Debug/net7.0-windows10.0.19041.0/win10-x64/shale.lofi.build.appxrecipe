@@ -610,8 +610,23 @@
     <AppxPackagedFile Include="C:\Users\ayers\.nuget\packages\communitytoolkit.maui.core\4.0.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
       <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ayers\.nuget\packages\communitytoolkit.maui.mediaelement\1.0.1\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.MediaElement.dll">
+    <AppxPackagedFile Include="C:\Users\ayers\.nuget\packages\communitytoolkit.maui.mediaelement\1.0.2\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.MediaElement.dll">
       <PackagePath>CommunityToolkit.Maui.MediaElement.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayers\.nuget\packages\google.apis\1.60.0\lib\netstandard2.0\Google.Apis.dll">
+      <PackagePath>Google.Apis.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayers\.nuget\packages\google.apis.auth\1.60.0\lib\netstandard2.0\Google.Apis.Auth.PlatformServices.dll">
+      <PackagePath>Google.Apis.Auth.PlatformServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayers\.nuget\packages\google.apis.auth\1.60.0\lib\netstandard2.0\Google.Apis.Auth.dll">
+      <PackagePath>Google.Apis.Auth.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayers\.nuget\packages\google.apis.core\1.60.0\lib\netstandard2.0\Google.Apis.Core.dll">
+      <PackagePath>Google.Apis.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayers\.nuget\packages\google.apis.youtube.v3\1.60.0.2945\lib\netstandard2.0\Google.Apis.YouTube.v3.dll">
+      <PackagePath>Google.Apis.YouTube.v3.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayers\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
@@ -690,6 +705,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayers\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayers\.nuget\packages\newtonsoft.json\13.0.2\lib\net6.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayers\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -885,6 +903,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu.scale-100.png">
+      <PackagePath>menu.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\pause.scale-100.png">
+      <PackagePath>pause.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayers\source\repos\shale.lofi\shale.lofi\shale.lofi\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\play.scale-100.png">
+      <PackagePath>play.scale-100.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

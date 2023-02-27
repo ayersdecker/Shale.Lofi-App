@@ -11,8 +11,8 @@ public class PlayerNotificationManager_NotificationListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onNotificationCancelled:(IZ)V:GetOnNotificationCancelled_IZHandler:Com.Google.Android.Exoplayer2.UI.PlayerNotificationManager/INotificationListener, ExoPlayer.UI\n" +
-			"n_onNotificationPosted:(ILandroid/app/Notification;Z)V:GetOnNotificationPosted_ILandroid_app_Notification_ZHandler:Com.Google.Android.Exoplayer2.UI.PlayerNotificationManager/INotificationListener, ExoPlayer.UI\n" +
+			"n_onNotificationCancelled:(IZ)V:GetOnNotificationCancelled_IZHandler:Com.Google.Android.Exoplayer2.UI.PlayerNotificationManager/INotificationListenerInvoker, ExoPlayer.UI\n" +
+			"n_onNotificationPosted:(ILandroid/app/Notification;Z)V:GetOnNotificationPosted_ILandroid_app_Notification_ZHandler:Com.Google.Android.Exoplayer2.UI.PlayerNotificationManager/INotificationListenerInvoker, ExoPlayer.UI\n" +
 			"";
 		mono.android.Runtime.register ("Com.Google.Android.Exoplayer2.UI.PlayerNotificationManager+INotificationListenerImplementor, ExoPlayer.UI", PlayerNotificationManager_NotificationListenerImplementor.class, __md_methods);
 	}
