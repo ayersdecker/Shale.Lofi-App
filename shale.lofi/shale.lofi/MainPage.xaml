@@ -50,7 +50,8 @@
         <toolkit:MediaElement x:Name="MediaPlayer"
                               Grid.Column="1"
                               Grid.Row="2" 
-                              ShouldAutoPlay="False"
+                              Source = "embed://lofiaudio.mp3"
+                              ShouldAutoPlay="True"
                               ShouldShowPlaybackControls="True"/>
 
         <Frame x:Name="MediaFrame"
